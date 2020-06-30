@@ -19,24 +19,28 @@
   <body>
     <!-- Nav Bar begins -->
     <section>
-      <div id="nav-bar">
-        <ul>
-          <li><a href="#nav-bar">Home</a></li>
-          <li><a href="#band">Band</a></li>
-          <li><a href="#">Tour</a></li>
-          <li><a href="#">Contact</a></li>
-          <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">More</a>
-            <div class="dropdown-content">
-              <a href="#">Merchandise</a>
-              <a href="#">Extras</a>
-              <a href="#">Media</a>
-            </div>
-          </li>
-          <li>
-            <a href="#"><i class="fas fa-search"></i></a>
-          </li>
-        </ul>
+      <div id="navbar">
+        <a href="#container">Home</a>
+        <a href="#band">band</a>
+        <a href="#tour-dates">Tour</a>
+        <a href="#tour-dates">Contant</a>
+        <!-- <div class="dropdown">
+          <button class="dropbtn" onclick="dropdown()">
+            More
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> -->
+        <div id="search">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
       </div>
     </section>
 

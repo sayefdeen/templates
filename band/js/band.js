@@ -13,3 +13,7 @@ function autoSlides() {
   slides[myIndex - 1].style.display = "block";
   setTimeout(autoSlides, 4000);
 }
+
+function dropdown() {
+  document.querySelector(".dropdown-content").classList.toggle("show");
+}
