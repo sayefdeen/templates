@@ -160,13 +160,16 @@ img {
   left: 50%;
   bottom: 0;
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   text-align: center !important;
   transform: translate(-50%, 0%);
+  /* padding: 16px; */
+  margin: 2em;
 }
 
 h3,
 p {
   text-align: center;
+  font-family: "Arimo", sans-serif;
 }
