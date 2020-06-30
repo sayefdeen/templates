@@ -2,88 +2,6 @@
   margin: 0;
   padding: 0;
 }
-/* #nav-bar ul li {
-  display: inline-block;
-  text-decoration: none;
-  padding: 8px;
-}
-
-#nav-bar {
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  font-size: 20px;
-  line-height: 1.5;
-  word-spacing: 50px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  width: 100%;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-li a:hover {
-  background-color: blue;
-}
-
-li a,
-.dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover,
-.dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-} */
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -172,4 +90,69 @@ h3,
 p {
   text-align: center;
   font-family: "Arimo", sans-serif;
+}
+
+/* i {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 15px;
+} */
+
+#band {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  margin: 0 auto;
+  line-height: 1.5;
+  max-width: 800px;
+  font-size: 15px;
+}
+
+#band h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 15px;
+}
+
+#band p {
+  text-align: justify;
+  margin: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#band-members {
+  display: flex;
+  flex-direction: row;
+}
+
+#band-members p {
+  text-align: center;
+}
+
+#tour-dates {
+  color: #f1f1f1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 15px;
+  max-width: 800px;
+}
+
+#tour-dates h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 15px;
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
 }
