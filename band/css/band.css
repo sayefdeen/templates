@@ -138,12 +138,6 @@ img {
   margin: 2em;
 }
 
-h3,
-p {
-  text-align: center;
-  font-family: "Arimo", sans-serif;
-}
-
 /* i {
   font-size: 25px;
   color: rgba(0, 0, 0, 0.5);
@@ -154,7 +148,7 @@ p {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 64px;
+  padding: 16px 64px;
   margin: 0 auto;
   line-height: 1.5;
   max-width: 800px;
@@ -207,4 +201,79 @@ p {
 
 .container {
   background-color: rgb(0, 0, 0);
+}
+
+#tickets {
+  color: red;
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.tickets-content {
+  float: right;
+  right: 0;
+  color: #757575;
+  border: 1px #ccc solid;
+  line-height: 1.5;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+span {
+  padding-left: 15px;
+  background-color: red;
+  color: white;
+}
+
+strong {
+  float: inline-end;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  color: #ddd;
+}
+
+.tickets-pictuers-container {
+  color: #f1f1f1;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 64px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 15px;
+  max-width: 800px;
+}
+
+.tickets-pictuers-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+  width: auto;
+  background-color: white;
+  color: black;
+}
+
+.tickets-pictuers-content button {
+  color: white;
+  background-color: #000000;
+  float: left;
+  font-size: 20px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.tickets-para p {
+  text-align: left;
+  margin: 15px;
+}
+
+.tickets-para p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
 }
