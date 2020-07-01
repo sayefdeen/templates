@@ -2,14 +2,6 @@
   margin: 0;
   padding: 0;
 }
-/* #navbar {
-  overflow: hidden;
-  background-color: black;
-  position: fixed; 
-  top: 0; 
-  width: 100%; 
-  z-index: 1;
-} */
 
 #search {
   float: right;
@@ -32,63 +24,6 @@
   border: none;
   cursor: pointer;
 }
-
-/* #navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-
-#navbar a:hover,
-.dropdown:hover .dropbtn {
-  background: #ddd;
-  color: black;
-}
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 2;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-} */
 
 #navbar {
   overflow: hidden;
@@ -148,7 +83,7 @@ img {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 16px 64px;
+  padding: 64px 16px;
   margin: 0 auto;
   line-height: 1.5;
   max-width: 800px;
@@ -184,7 +119,7 @@ img {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 64px;
+  padding: 64px 16px;
   margin: 0 auto;
   line-height: 1.5;
   font-size: 15px;
@@ -199,7 +134,7 @@ img {
   margin: 15px;
 }
 
-.container {
+.container-tickets {
   background-color: rgb(0, 0, 0);
 }
 
@@ -236,6 +171,7 @@ strong {
   border-radius: 50%;
   background-color: black;
   color: #ddd;
+  margin-right: 5%;
 }
 
 .tickets-pictuers-container {
@@ -243,7 +179,7 @@ strong {
   text-align: center;
   display: flex;
   flex-direction: row;
-  padding: 16px 64px;
+  padding: 64px 16px;
   margin: 0 auto;
   line-height: 1.5;
   font-size: 15px;
@@ -264,7 +200,7 @@ strong {
   color: white;
   background-color: #000000;
   float: left;
-  font-size: 20px;
+  font-size: 15px;
   margin: 15px;
   padding: 10px;
 }
@@ -276,4 +212,80 @@ strong {
 
 .tickets-para p:nth-child(2) {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.container-contant {
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 16px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 15px;
+  max-width: 800px;
+}
+
+.container-contant h2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 15px;
+}
+
+.contant-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  font-size: 20px;
+  text-justify: auto;
+  margin: 15px;
+  width: 50%;
+}
+.contact-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.contant-info i {
+  padding-right: 10px;
+}
+
+.contact-form {
+  float: left;
+  text-align: left;
+  width: 50%;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input[type="submit"] {
+  color: white;
+  background-color: #000000;
+  float: right;
+  font-size: 15px;
+
+  padding: 10px;
+}
+
+.contact-form input[type="text"] {
+  margin: 5px;
+  font-size: 16px;
+  border: black 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+input[type="text"]:nth-child(2) {
+  width: 100%;
+  padding: 10px;
 }
